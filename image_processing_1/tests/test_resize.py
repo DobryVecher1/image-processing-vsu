@@ -14,7 +14,7 @@ def module_path(request):
         module_path = "assignments.02_resize.resize_funcs"
 
     # convert slash to dot in order to be able to import module later
-    return module_path.replace("\\", ".")
+    return module_path.replace("\\", ".").removesuffix(".py")
 
 
 # import the module

@@ -13,7 +13,7 @@ def module_path(request):
         module_path = "assignments.03_false_colors.false_colors_funcs"
 
     # convert slash to dot in order to be able to import module later
-    return module_path.replace("\\", ".")
+    return module_path.replace("\\", ".").removesuffix(".py")
 
 
 # import the module
