@@ -1,5 +1,4 @@
 import numpy as np
-
 from assignments.false_colors.false_colors_funcs import get_color_map, get_false_color_img, get_levels
 
 

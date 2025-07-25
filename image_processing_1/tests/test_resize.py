@@ -1,6 +1,5 @@
 import numpy as np
 import scipy
-
 from assignments.resize.resize_funcs import bilin_kernel, convolve_2d, downsample_no_filter, gauss_kernel, get_pad_img
 
 

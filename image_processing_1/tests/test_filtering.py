@@ -1,5 +1,4 @@
 import numpy as np
-
 from assignments.filtering.filtering_funcs import (
     gauss_kernel,
     get_expand_img,
