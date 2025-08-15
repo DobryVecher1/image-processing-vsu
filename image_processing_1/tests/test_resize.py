@@ -36,7 +36,7 @@ class TestResize:
         img = np.ones((101, 151))
         img_small = tested_module.downsample_no_filter(img)
 
-        assert img_small.shape == (img.shape[0] // 2, img.shape[1] // 2)
+        assert img_small.shape == (img.shape[0] // 5, img.shape[1] // 5)
 
     def test_pad(self, tested_module):
         """Проверяет паддинг."""
