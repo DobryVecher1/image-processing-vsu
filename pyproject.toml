@@ -5,12 +5,16 @@ readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.14"
 numpy = "^2.0.0"
 matplotlib = "*"
 scipy = "^1.15.1"
 scikit-image = "^0.25.1"
 pytest = "*"
+pandas = "^2.3.1"
+scikit-learn = "^1.7.1"
+torch = "^2.8.0"
+torchvision = "^0.23.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
@@ -42,5 +46,7 @@ ignore = [
     "C901", # too complex
     "N812", # lowercase-imported-as-non-lowercase
     "D100", # undocumented-public-module
+    "N806", # Variable in function should be lowercase
+    "N803", # Argument name `W` should be lowercase
 ]
 
