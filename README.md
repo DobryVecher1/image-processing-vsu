@@ -54,3 +54,6 @@ pytest image_processing_<НОМЕР СЕМЕСТРА>\tests
 pytest image_processing_1\tests\test_filtering.py
 ```
 **_Обратите внимание_**, что успешно пройденные тесты сами по себе не означают правильно выполненное задание!
+
+# Источники
+Список литературы и ссылки на полезные ресурсы см. в папке [resources](resources/README.md)
