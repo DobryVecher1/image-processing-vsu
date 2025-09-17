@@ -1,10 +1,11 @@
 ## Ресурсы
 - CS231n: Deep Learning for Computer Vision ([page](http://cs231n.stanford.edu/), [video lectures](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk))
 - [Учебник по машинному обучению](https://academy.yandex.ru/handbook/ml), Школа Анализа Данных Яндекса
-- Курсы по машинному обучению. [Раз](https://github.com/esokolov/ml-course-hse) и [два](https://github.com/girafe-ai/ml-course)
+- Курсы по машинному обучению: [ВШЭ](https://github.com/esokolov/ml-course-hse) и [girafe-ai](https://github.com/girafe-ai/ml-course)
 - Открытый курс машинного обучения от сообщества OpenDataScience ([Russian](https://habr.com/ru/company/ods/blog/322626/), [English](https://mlcourse.ai/))
 - [Kaggle](https://www.kaggle.com/)
 - [Dive into Deep Learning](https://d2l.ai/)
+- [SVM visualization](http://vision.stanford.edu/teaching/cs231n-demos/linear-classify/). Stanford, CS231n
 - [Neural Network Playgroud](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.00112&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 - [Loss landscape visualization](https://losslandscape.com/)
 - Визуализация работы оптимизаторов ([раз](https://emiliendupont.github.io/2018/01/24/optimization-visualization/), [два](https://github.com/j-w-yun/optimizer-visualization))
@@ -23,5 +24,6 @@
 - Основы радиоэлектроники и связи, В. И. Нефедов, А. С. Сигов, 2009
 - Цифровая связь. Теоретические основы и практическое применение, Б. Скляр, 2003
 - Сжатие данных, изображений и звука, Д. Сэломон, 2004
+- CS229 Lecture Notes, Andrew Ng
 - [Deep Learning](https://www.deeplearningbook.org/), I. Goodfellow, Y. Bengio, A. Courville
 - Computer Vision: Algorithms and Applications, R. Szeliski, 2022
