@@ -2,8 +2,8 @@ matplotlib
 numpy
 pandas
 pytest
-scikit
-scikit
+scikit-image
+scikit-learn
 scipy
 seaborn
 sympy
