@@ -41,7 +41,7 @@ class TestNN:
         x = np.array([[-1, 2], [0, -3]])
         upstream_grad = np.array([[0.1, 0.2], [0.3, 0.4]])
 
-        result = tested_module.relu(x, upstream_grad, get_grad=True)
+        result = tested_module.relu(x, upstream_grad=upstream_grad, get_grad=True)
         expected = np.array([[0, 0.2], [0, 0]])
         assert np.allclose(result, expected), "ReLU: Неверный результат backward pass"
 
@@ -53,7 +53,7 @@ class TestNN:
 
         # Тест для градиента
         upstream_grad = np.array([0.1, 0.2, 0.3], dtype=float)
-        result_grad = tested_module.relu(x, upstream_grad, get_grad=True)
+        result_grad = tested_module.relu(x, upstream_grad=upstream_grad, get_grad=True)
         assert result_grad.dtype == float, "ReLU: тип данных градиента не сохранен"
 
     def test_linear_forward_batch(self, tested_module):
