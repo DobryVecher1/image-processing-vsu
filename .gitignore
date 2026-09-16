@@ -7,3 +7,5 @@ utils/
 solution_test/
 done/
 .vscode
+cifar-10*
+*.pth

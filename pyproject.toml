@@ -16,6 +16,9 @@ scikit-learn = "^1.7.1"
 torch = "^2.8.0"
 torchvision = "^0.23.0"
 seaborn = "^0.13.2"
+torchmetrics = "^1.8.2"
+datasets = "^5.0.1"
+grad-cam = "^1.5.7"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"

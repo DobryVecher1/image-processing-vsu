@@ -10,7 +10,7 @@ def module_path(request):
     module_path = request.config.getoption("--module_path")
     # if no path were provided - use default
     if module_path is None:
-        module_path = "assignments.02_nn_numpy.nn_numpy_funcs"
+        module_path = "image_processing_2.assignments.01_nn_numpy.nn_numpy_funcs"
 
     # convert slash to dot in order to be able to import module later
     return module_path.replace("\\", ".").removesuffix(".py")
